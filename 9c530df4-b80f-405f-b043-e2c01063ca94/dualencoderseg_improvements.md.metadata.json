@@ -1,0 +1,5 @@
+{
+  "summary":  "Implementation guide and improved PyTorch code for DualEncoderSeg, addressing the architectural, loss-function, and optimization bottlenecks.",
+  "updatedAt":  "2026-06-08T08:48:15.952054200Z",
+  "userFacing":  true
+}
