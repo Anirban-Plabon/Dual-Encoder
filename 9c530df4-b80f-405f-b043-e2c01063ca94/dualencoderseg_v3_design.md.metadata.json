@@ -1,5 +1,0 @@
-{
-  "summary":  "Architecture design document for DualEncoderSeg v3, explaining the dual skip connection mechanism, latent-space prediction, and all improvements over v2.",
-  "updatedAt":  "2026-06-08T09:02:38.501412400Z",
-  "userFacing":  true
-}
