@@ -989,6 +989,8 @@ class RetinaDataset(torch.utils.data.Dataset):
 
         img  = TF.to_tensor(img)            # 3×512×512, [0,1]
         mask = TF.to_tensor(mask)           # 1×512×512, [0,1]
+        if mask.max() > 0:
+            mask = mask / mask.max()
         mask = (mask > 0.5).float()         # binarise
         return img, mask
 
